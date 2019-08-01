@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67965629-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-67965629-3');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/onepage-scroll.css"> -->
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Quicksand:300,400,500,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&amp;subset=latin-ext,vietnamese" rel="stylesheet">  -->
+    <link href="themes/blue/pace-theme-flash.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- <script src="js/box-loader/jquery.boxloader.min.js"></script> -->
+    <script src="js/pace/pace.js"></script>
+    <script src="js/wow/wow.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/jquery.onepage-scroll.js"></script> -->
+    <title>CODEX</title>
+</head>
+
+<body class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.01s">
+
+
+
+    <header class="mob-header">
+        <div class="container-fluid">
+            <div class="row no-margin">
+                <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                    <div class="logo">
+                        <a href="/"><img src="icon/logo02.png" alt="CODEX"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                    <div class="menu-icon">
+                        <a href="#menu" id="toggle"><span></span></a>
+                        <!-- <span id="toggle-icon">&#9776;</span> -->
+                        <div id="menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li id="product">Product<span id="product-toggle-icon" class="fa fa-chevron-circle-down"></span>
+                                    <ul class="submenu">
+                                        <li><a href="product-carrier.html">Carrier</a></li>
+                                        <li><a href="product-global-enterprise.html">Global Enterprise</a></li>
+                                        <li><a href="product-office.html">Office</a></li>
+                                        <li><a href="product-professional.html">Professional</a></li>
+                                        <li><a href="product-call-center.html">Call Center</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="feature.html">Features</a></li>
+                                <li><a href="service.html">Services</a></li>
+                                <li><a href="tutorials.html">Tutorials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="/"><img src="icon/logo02.png" alt="CODEX"></a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-7">
+                    <div class="menu-items">
+                        <ul>
+                            <li id="home" data-index="1"><a href="/" class="active">Home</a></li>
+                            <li id="about-us" data-index="2"><a href="about.html">About us</a></li>
+                            <li id="product" data-index="3"><a href="product-carrier.html">Product</a>
+                                <ul class="submenu">
+                                    <li><a href="product-carrier.html">Carrier</a></li>
+                                    <li><a href="product-global-enterprise.html">Global Enterprise</a></li>
+                                    <li><a href="product-office.html">Office</a></li>
+                                    <li><a href="product-professional.html">Professional</a></li>
+                                    <li><a href="product-call-center.html">Call Center</a></li>
+                                </ul>
+                            </li>
+                            <li id="features" data-index="4"><a href="feature.html">Features</a></li>
+                            <li id="services" data-index="5"><a href="service.html">Services</a></li>
+                            <li id="contact-us" data-index="6"><a href="tutorials.html">Tutorials</a></li>
+                        </ul>
+                        <a href="login/login.html">
+                            <p class="log-in">Log in</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner - Section -->
+
+    <section class="section-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 no-padding">
+                    <div class="section-banner-background">
+                        <div class="section-banner-content">
+                            <div class="banner-image-center">
+                                <img src="icon/section-banner-logo.png">
+                            </div>
+                            <div>
+                                <h1>A Better Way To<strong> CONNECT</strong></h1>
+                                <h2>Experience secure, high quality bussiness communications</h2>
+                                <h2>anywhere, on any device</h2>
+                            </div>
+                            <div class="button-center">
+                                <a href="request.php"><button>View Demo</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner - Section -->
+
+    <!-- Whats New Section -->
+
+    <section class="section-whats-new">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 no-padding">
+                    <div class="section-whats-new-content">
+                        <h1>Whats New</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Whats New Section -->
+
+    <!-- Second Last Section -->
+
+    <section class="section-second-last">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="section-second-last-content">
+                        <div class="content">
+                            <img src="images/first.jpg" alt="Stay Connected">
+                            <h1>STAY CONNECTED</h1>
+                            <p>Experience smarter communications - we give you the freedom to communicate anytime, anywhere from any device, with carrier grade quality that is clear and reliable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="section-second-last-content">
+                        <div class="content">
+                            <img src="images/second.jpg" alt="Smarter Collaboration">
+                            <h1>SMARTER COLLABORATION</h1>
+                            <p>Enhance your collaboration internally and with customer with voice, video, group messaging, collaboration, text, conferencing, and file sharing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="section-second-last-content">
+                        <div class="content">
+                            <img src="images/third.jpg" alt="Better Customer Experince">
+                            <h1>BETTER CUSTOMER EXPERIENCE</h1>
+                            <p>Improve the performance of your call centers with our desktop client, allowing your employees to connect to customers in the way that is most convenient to them.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Last Section -->
+
+    <!-- Contact Us Section -->
+
+    <section class="section-contact-us">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-6">
+					
+				</div> -->
+                <div class="col-md-12 for-center-height">
+                    <div class="contact-us-center">
+                        <div class="contact-us-heading">
+                            <h1>Contact us</h1>
+                        </div>
+                        <div class="row">
+                            <div class="contact-us-form">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="First Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" placeholder="Subject">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button>SEND</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+
+    <!-- About - Section -->
+
+    <!-- <section class="section-about" id="section-about">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 no-padding">
+					<div class="section-about-background">
+						<div class="section-about-content">
+							<h1>Codex Communication Solution</h1>
+							<p>Are you looking for an advanced communications solution that integrates with your existing business infrastructure, and that can scale to meet the growing needs of your users? </p>
+							<p>You have come to the right place. We provide a Secure, Highly Scalable, Highly available Highly Customizable and Backwards Compatible Carrier Grade Communication solution  </p>
+							<p>Our platform provides uninterrupted communication services on Mobile, Desktop, Tablet , Ip Phones and Analog Phones. We can integrate wit Sip and E1/T1 trunks. Our platform can also run alongside your existing communication services providing modern OTT capabilities. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+    <!-- About - Section -->
+
+    <!-- Product - Section -->
+
+    <!-- <section class="section-product" id="section-product">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 no-padding">
+					<div class="section-product-background">
+						<div class="section-product-content">
+							<h1>Product</h1>
+							<h2>Cloud Based</h2>
+							<p>Let us take care of your infrastructure, telecom connectivity and maintenance. We will set up and maintain your solution for you on the cloud where it can be accessed throughout the world in any of your locations. We will provide you with admin access to your account through which you can manage your services. </p>
+							<h2>On Premises</h2>
+							<p>We will provide you with a redundant multi server datacenter solution tailored to your exact specifications, that you can install in your organization.We will also provide complete support for networking the endpoints and integrating our solution with your existing network.</p>
+							<h2>Hybrid</h2>
+							<p>We will provide a mix of the two solutions for maximum flexibility in your deployment. Have a local telecom trunk. We will interface that using an on premise solution while the rest lives in the cloud. The possibilities are endless.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+    <!-- Product - Section -->
+
+    <!-- Feature - Section -->
+
+    <!-- <section class="section-features" id="section-features">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 no-padding">
+					<div class="section-features-background">
+						<div class="row no-margin">
+							<div class="col-md-12 no-padding">
+								<div class="section-features-heading">
+									<h1>Features</h1>
+								</div>
+							</div>
+						</div>
+						<div class="section-top-row">
+							<div class="row height-hunderd no-margin">
+								<div class="col-md-4 height-hunderd no-padding">
+									<div class="section-features-top-content">
+										<img src="icon/cloud-based-pbx.png" alt="cloud-based-pbx">
+										<h1>Carrier Grade Scalability</h1>
+										<p>Based on the latest cloud technologies, our solution can scale up to millions of users. Our platform uses Erlang OTP , the same technology used to power Whatsapp and Facebook Messenger.   </p>
+									</div>
+								</div>
+								<div class="col-md-4 height-hunderd no-padding">
+									<div class="section-features-top-content">
+										<img src="icon/feature-center-logo.png" alt="performance-result" class="center-img">
+									</div>
+								</div>
+								<div class="col-md-4 height-hunderd no-padding">
+									<div class="section-features-top-content">
+										<img src="icon/enhance-video-calling.png" alt="enhance-video-calling">
+										<h1>Reliability</h1>
+										<p>Based on Erlang OTP with an uptime of 99.99999 , our platform is very reliable. On top of that we add  hardware and power redundancy for maximum uptime.  </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="section-bottom-row">
+							<div class="row no-margin">
+								<div class="col-md-4 no-padding">
+									<div class="section-features-bottom-content">
+										<img src="icon/cloud-based-pbx.png" alt="cloud-based-pbx">
+										<h1>Security</h1>
+										<p>We believe in secure communication. All our communication is encrypted using  AES 256 bit encryption. We also provide a high end firewall and a session border controller bundled with our solution.</p>
+									</div>
+								</div>
+								<div class="col-md-4 no-padding">
+									<div class="section-features-bottom-content">
+										<img src="icon/cloud-based-pbx.png" alt="cloud-based-pbx">
+										<h1>Advanced Messaging Services</h1>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+									</div>
+								</div>
+								<div class="col-md-4 no-padding">
+									<div class="section-features-bottom-content">
+										<img src="icon/cloud-based-pbx.png" alt="cloud-based-pbx">
+										<h1>InterOperability</h1>
+										<p>Our state of the art communication platform can integrate with your existing ifrastructure, paving a way for future upgradation while at the same time getting the maximum value from your existing infrastructure investment. You can also use it provide extra OTT services to your existing clients.      </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+    <!-- Feature - Section -->
+
+    <!-- Services - Section -->
+
+    <!-- <section class="section-services" id="section-services">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 no-padding">
+					<div class="section-services-background">
+						<div class="row no-margin">
+							<div class="col-md-12 no-padding">
+								<div class="section-services-top-content">
+									<h1>Our Services</h1>
+								</div>
+							</div>
+						</div>
+						<div class="section-bottom-row">
+							<div class="row no-margin">
+								<div class="col-md-4 no-padding">
+									<div class="section-service-bottom-content">
+										<img src="icon/unified-icon.png" alt="unified-communications">
+										<h1>Setup and Deployment</h1>
+										<p>No matter what solution you choose, we will be there every step of the way to get it up and going. We will also interface our systems with your local telecom  and legacy infrastructure to give you a seamless experience. </p>
+									</div>
+								</div>
+								<div class="col-md-4 no-padding">
+									<div class="section-service-bottom-content">
+										<img src="icon/performance-icon.png" alt="performance-result">
+										<h1>Customization</h1>
+										<p>From adding your own branding to having your own customized billing we have a myraid of ways to customize the product according to your exact needs. Our Api based solution can also integrate with your existing CRMs, ERPs and other in use services.</p>
+									</div>
+								</div>
+								<div class="col-md-4 no-padding">
+									<div class="section-service-bottom-content">
+										<img src="icon/experience-icon.png" alt="experience">
+										<h1>Support</h1>
+										<p>Whether you require onsite support or a quick remote fix, our team of skilled engineers is ready to assist you in meeting your goals. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+    <!-- Services - Section -->
+
+    <!--Video - Section-->
+    <!-- <section class="section-video" id="tutorials">
+       <div class="container-fluid">
+           Row
+           <div class="row" style="height: 100%;">
+               <div class="video-pos">
+                   <div class="col-lg-12 col-md-12">
+                       <h1>Demo</h1>
+                       <div class="row">
+                           <div class="col-lg-10 col-md-10 df-tab">
+                               <div class="df-tab-content active">
+                                   <center>
+                                       <iframe src="https://drive.google.com/file/d/0B1HOzTbF29oEc0xmVndtbDJneU0/preview" frameborder="0" scrolling="no" seamless="" allowfullscreen="allowfullscreen">
+                                       </iframe>
+                                       
+                                       <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 16px; top: 1px;">&nbsp;</div>
+ 
+                                       <iframe src="https://drive.google.com/file/d/0B1HOzTbF29oEaEd5aGFEMU9OMTA/preview" width="640" height="480">
+                                       <iframe src="https://www.youtube-nocookie.com/embed/GEFlIILw91g?mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" frameborder="0" gesture="media" allowfullscreen></iframe>
+                                   </center>
+                               </div>
+                               <div class="df-tab-content">
+                                   <center>
+                                       <iframe src="https://drive.google.com/file/d/0B1HOzTbF29oEaEd5aGFEMU9OMTA/preview" frameborder="0" scrolling="no" seamless="" allowfullscreen="allowfullscreen"></iframe>
+                                       <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 16px; top: 1px;">&nbsp;</div>
+                                   </center>
+                               </div>
+                               <div class="df-tab-content">
+                                   <center>
+                                       <iframe src="https://drive.google.com/file/d/0B1HOzTbF29oEN3M2LXdNczJSdTA/preview" frameborder="0" scrolling="no" seamless="" allowfullscreen="allowfullscreen"></iframe>
+                                       <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 16px; top: 1px;">
+                                       	&nbsp;
+                                       </div>
+                                   </center>
+                               </div>
+                               <div class="df-tab-content">
+                                   <center>
+                                       <iframe src="https://drive.google.com/file/d/0B1HOzTbF29oESVRPVlhReUpPTms/preview" frameborder="0" scrolling="no" seamless="" allowfullscreen="allowfullscreen"></iframe>
+                                       <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 16px; top: 1px;">&nbsp;</div>
+                                   </center>
+                               </div>
+                               <div class="df-tab-content">
+                                   <center>
+                                       <iframe src="https://drive.google.com/file/d/0B1HOzTbF29oEbE1DSXhpeHZsc3M/preview" frameborder="0" gesture="media" seamless="" allowfullscreen="allowfullscreen"></iframe>
+                                       <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 16px; top: 1px;">&nbsp;</div>
+                                   </center>
+                               </div>
+                               <div class="df-tab-content">
+                                   <center>
+                                       <iframe src="https://drive.google.com/file/d/0B1HOzTbF29oER1o4SlZNOU5wOTA/preview" frameborder="0" gesture="media" seamless="" allowfullscreen="allowfullscreen"></iframe>
+                                       <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 16px; top: 1px;">&nbsp;</div>
+                                   </center>
+                               </div>
+                           </div>
+                           <div class="col-lg-2 col-md-2 df-tab-menu">
+                               <div class="list-group">
+                                   <a href="#" class="list-group-item active text-center">
+ 										Application Installation
+                                   </a>
+                                   <a href="#" class="list-group-item text-center">
+                                       Account Registration
+                                   </a>
+                                   <a href="#" class="list-group-item text-center">
+                                       Codec Settings
+                                   </a>
+                                   <a href="#" class="list-group-item text-center">
+                                       Audio and Video Call
+                                   </a>
+                                   <a href="#" class="list-group-item text-center">
+                                       Audio Conference
+                                   </a>
+                                   <a href="#" class="list-group-item text-center">
+                                       Join Conference Room
+                                   </a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               Row
+           </div>
+           Row
+       </div>
+   </section> -->
+
+    <!--Video - Section-->
+
+    <!-- Contact Us - Section -->
+    <!-- <section class="section-contact-us" id="section-contact-us">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Contact Us</h1>
+					<form>
+						<input type="text" name="firstName" placeholder="First Name" required="" size="50">
+						<input type="text" name="lastName" placeholder="Last Name" required="" size="50"> <br><br>
+						<input type="email" name="email" placeholder="Email" required="" size="104"> <br><br>
+						<input type="text" name="subject" placeholder="Subject" required="" size="104"> <br><br>
+						<textarea type="text" name="message" placeholder="Messgae" rows="10" cols="104"></textarea> <br><br>
+						<button> Send </button>
+					</form>	
+				</div>			
+			</div>
+		</div>
+	</section> -->
+    <!-- Contact Us - Section -->
+
+</body>
+
+</html>

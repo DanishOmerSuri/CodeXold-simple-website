@@ -1,0 +1,274 @@
+/* Product Banner Section */
+
+.section-product-office-banner {
+	width: 100%;
+	//height: 100vh;
+	//height: calc(100vh - 170px);
+	height: 50vh;
+	margin-top: 70px;
+	background-image: url("../images/product-global-enterprise-banner.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	//top: 100px;
+	//position: relative;
+	//height: 100vh;
+	//margin-bottom: 70px;
+	@media screen and (max-width: 480px) {
+		height: auto;
+	}
+	.section-product-office-banner-background {
+		width: 100%;
+		//height: calc(100vh - 170px);
+		height: 50vh;
+		@media screen and (max-width: 480px) {
+			height: auto;
+		}
+		.section-product-office-banner-content {
+			position: absolute;
+			top: 60%;
+			//left: 30%;
+			transform: translateY(-40%);
+			@media screen and (max-width: 480px) {
+				position: relative;
+				top: 0px;
+				transform: none;
+			}
+			h1 {
+				//font-size: 50px;
+				font-family: 'Roboto', sans-serif;
+				font-size: 35px;
+				//font-size: 38px; 
+				color: #2f87b8;
+				font-weight: medium;
+				//font-weight: 300;
+				//text-align: center;
+				@media screen and (max-width: 480px) {
+					font-size: 20px;
+					text-align: center;
+					width: 100%;
+				}
+			}
+			p {
+				font-family: 'Roboto', sans-serif;
+				color: #000000;
+				font-size: 22px;
+				//font-size: 20px;
+				font-weight: 300;
+				width: 60%;
+				@media screen and (max-width: 480px) {
+					font-size: 15px;
+					text-align: center;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+/* Product Banner Section */
+
+/* Product office Second Section */
+
+.product-office-second-section {
+	height: 30vh;
+	width: 100%;
+	background-color: white;
+	border-top: 1px solid black;
+	//margin-top: 50px;
+	padding: 10px 0px;
+	@media screen and (max-width: 480px) {
+		height: auto; 
+	}
+	.product-office-second-section-content-center {
+		width: 100%;
+		height: 30vh;
+		text-align: center;
+		//padding-left: 100px;
+		@media screen and (max-width: 480px) {
+			height: auto; 
+		}
+		.product-office-second-section-content {
+			position: absolute;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    width: 100%;
+		    @media screen and (max-width: 480px) {
+				position: relative;
+		    	top: 0px;
+		    	transform: none; 
+			}
+			h1 {
+				color: #2a86b7;
+			    font-weight: medium;
+			    font-family: 'Roboto', sans-serif;
+			    font-size: 40px;
+			    margin: auto;
+			    margin-top: 0px;
+			    width: 70%;
+			    //margin-bottom: 20px;
+			    @media screen and (max-width: 480px) {
+					font-size: 18px;
+					width: 100%; 
+				}
+			}
+			.button-center {
+				text-align: center;
+				//margin-top: 50px;
+				margin-top: 2.5vw;
+				/* @media screen and (max-width: 1400px) {
+					margin-top: 15px;
+				    			} */
+    			a {
+					button {
+						background: transparent;
+					    width: 20%;
+					    /* height: 35%; */
+					    height: 50px;
+					    font-family: 'Raleway', sans-serif;
+					    border-radius: 10px;
+					    //font-size: 30px;
+					    font-size: 25px;
+					    color: #2f87b8;
+					    border: 2px solid #2f87b8;
+					    font-weight: normal;
+					    /* @media screen and (max-width: 1400px) {
+					    							font-size: 20px;
+					    	    				} */
+					    @media screen and (max-width: 480px) {
+							width: 50%;
+							height: 10vw;
+							font-size: 15px;
+						}
+	    				&:focus {
+	    					outline: none;
+	    				}
+	    			}
+				}
+			}
+			h2 {
+				color: #000000;
+			    font-weight: 300;
+			    font-family: 'Roboto', sans-serif;
+			    font-size: 1.4vw;
+			    //margin-top: 50px;
+			}
+		}
+	}
+}
+
+/* Product office Second Section */
+
+/* Product office Third and fifth Section */
+
+.product-office-third-section {
+	height: 300px;
+	width: 100%;
+	background-color: white;
+	padding: 10px 0px;
+	@media screen and (max-width: 480px) {
+		height: auto;
+	}
+	.product-office-third-section-content-center {
+		width: 100%;
+		//height: 35vh;
+		//text-align: center;
+		//padding-left: 100px;
+		@media screen and (max-width: 480px) {
+			text-align: center;
+		}
+		.product-office-third-section-content {
+			/* position: absolute;
+					    top: 50%;
+					    transform: translateY(-50%); */
+			h1 {
+				color: #000000;
+			    font-weight: 500;
+			    font-family: 'Roboto', sans-serif;
+			    font-size: 35px;
+			    margin-top: 0px;
+			    width: 90%;
+			    //margin-bottom: 20px;
+			    @media screen and (max-width: 480px) {
+					font-size: 18px;
+					width: 100%; 
+				}
+			}
+			h2 {
+				color: #000000;
+			    font-weight: 300;
+			    font-family: 'Roboto', sans-serif;
+			    font-size: 20px;
+			    width: 100%;
+			    line-height: 30px;
+			    //margin-top: 50px;
+			    @media screen and (max-width: 480px) {
+					font-size: 12px;
+					width: 100%; 
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}
+
+/* Product office Third and fifth Section */
+
+/* Product Carrier Fourth Section */
+
+.product-office-fourth-section {
+	height: auto;
+	width: 100%;
+	background-image: url("../images/product-office-fourth.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	//background-attachment: fixed;
+	background-size: cover;
+	margin: 10px 0px;
+	@media screen and (max-width: 480px) {
+		height: auto;
+	}
+	.product-office-fourth-section-content-background {
+		width: 100%;
+		height: auto;
+		//text-align: center;
+		//background: #0c0c0c1a;
+		//padding-left: 100px;
+		.product-office-fourth-section-content {
+			padding: 50px 0px;
+			//width: 60%;
+			margin: auto;
+			@media screen and (max-width: 480px) {
+				text-align: center;
+			}
+			h1 {
+				color: #000000;
+			    font-weight: 500;
+			    font-family: 'Roboto', sans-serif;
+			    font-size: 35px;
+			    margin-top: 0px;
+			    width: 100%;
+			    //margin-bottom: 20px;
+			    @media screen and (max-width: 480px) {
+					font-size: 18px;
+					width: 100%; 
+				}
+			}
+			h2 {
+				color: #000000;
+			    font-weight: 300;
+			    font-family: 'Roboto', sans-serif;
+			    font-size: 20px;
+			    line-height: 30px;
+			    //margin-top: 50px;
+			    @media screen and (max-width: 480px) {
+					font-size: 12px;
+					width: 100%; 
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}
+
+/* Product office Fourth Section */
